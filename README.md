@@ -23,3 +23,7 @@ public function GetToken()
 }
 ```
 
+### use this code to get agora token
+```
+$this->agoraToken = $this->GetToken()['token'];
+```
