@@ -3,7 +3,7 @@ Implementation of agora in laravel applications.
 
 ## Paste this directory into App/
 
-__
+```php
 use App\Agora\RtcTokenBuilder2;
 
 public function GetToken()
@@ -21,4 +21,5 @@ public function GetToken()
 
     return ['token' => $token, 'uid' => $uid];
 }
+```
 
